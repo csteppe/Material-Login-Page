@@ -1,4 +1,4 @@
-/**
+﻿/**
  * material-design-lite - Material Design Components in CSS, JS and HTML
  * @version v1.1.1
  * @license Apache-2.0
@@ -9841,7 +9841,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
     color: rgba(0,0,0, 0.26); }
   .mdl-textfield--floating-label.is-focused .mdl-textfield__label,
   .mdl-textfield--floating-label.is-dirty .mdl-textfield__label {
-    color: rgb(63,81,181);
+    color: rgb(33,33,33);
     font-size: 12px;
     top: 4px;
     visibility: visible; }
@@ -9852,7 +9852,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
     color: rgb(213,0,0);
     font-size: 12px; }
   .mdl-textfield__label:after {
-    background-color: rgb(63,81,181);
+    background-color: rgb(33,33,33);
     bottom: 20px;
     content: '';
     height: 2px;

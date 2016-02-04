@@ -16,16 +16,16 @@ body {
     
 }
 .mdl-card > .mdl-card__actions > .mdl-button {
-    background-color: #0277BD;
+    background-color: #616161;
     
     
 }
 .mdl-card > .mdl-card__title {
-    background-color: #0277BD;
+    background-color: #212121;
 
 }
 
-.mdl-card > .mdl-card__actions{
+.mdl-card > .mdl-card__supporting-text{
   
     
 }
