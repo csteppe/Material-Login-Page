@@ -1,0 +1,91 @@
+﻿<!-- Author: Claudio Steppe 
+     Date: 2016/02/04
+     Description: Simple and Basic Login form using google material principles. Card and and angular are setup to be used to handled login attempts
+     but not yet developed.
+    
+    
+    -->
+
+
+<!DOCTYPE html>
+<html ng-app="loginapp" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Google Material</title>
+
+	<!-- Google Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700|Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
+
+	
+	<!-- Custom Stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/material.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+   
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+
+<body ng-controller="loginController" >
+    <div class="mdl-grid " name="titlegrid">
+        <div class="mdl-cell--4-col col-centered">
+           <div id="heading"><h1><strong>Google</strong> Material Login <strong>Page</strong> </h1> </div>
+
+
+        </div>
+
+
+    </div>
+    <div class="mdl-grid">
+            <div class="mdl-card col-centered mdl-cell--4-col mdl-cell--4-col-tablet mdl-shadow--2dp">
+                <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text ">Welcome</h2>
+                </div>
+                
+                <div class="mdl-card__supporting-text">
+                    <form action="#">
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <input class="mdl-textfield__input" type="text" id="username" ng-model="user.name">
+                            <label class="mdl-textfield__label" for="sample3">Username</label>
+                        </div>
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <input class="mdl-textfield__input" type="password" id="password" ng-model="user.pass">
+                            <label class="mdl-textfield__label" for="sample3">Password</label>
+                        </div>
+                    </form>
+                  
+                </div>
+                <div class="mdl-card__actions mdl-card--border ">
+                    
+                    <button class="register-button mdl-button mdl-js-button " ng-click="">
+                        Register
+                    </button>
+                            <button class="login-button mdl-button mdl-js-button  " ng-click="getvalue();">
+                                Login
+                            </button>
+                        </div>
+                </div>
+            </div>
+            
+            
+
+
+        
+       
+        
+    
+    <!-- Custom Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script src="script/app.js"></script>
+    <script src="script/material.js"></script>
+    <!-- Modules -->
+    <script src="script/app.js"></script>
+
+    <!-- Controllers -->
+    <script src="script/controllers/loginController.js"></script>
+</body>
+
+
+</html>

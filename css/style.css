@@ -1,0 +1,62 @@
+body {
+	background-color: #BDBDBD;
+	background-size: cover;
+	font-size: 16px;
+	
+    
+}
+
+.mdl-card {
+  display: flex;
+  box-sizing:border-box;
+  
+}
+.mdl-card > .mdl-card__title > .mdl-card__title-text {
+    color: #fff;
+    
+}
+.mdl-card > .mdl-card__actions > .mdl-button {
+    background-color: #0277BD;
+    
+    
+}
+.mdl-card > .mdl-card__title {
+    background-color: #0277BD;
+
+}
+
+.mdl-card > .mdl-card__actions{
+  
+    
+}
+#heading {
+    opacity:0.54;
+    text-align:center;
+    
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.login-button {
+     float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
